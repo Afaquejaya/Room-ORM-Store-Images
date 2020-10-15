@@ -3,7 +3,7 @@
     package="com.example.asif.roomormstoreimages">
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" android:required="true" android:requiredFeature="true"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
